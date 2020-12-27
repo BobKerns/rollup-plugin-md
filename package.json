@@ -1,6 +1,6 @@
 {
   "name": "@rwk/rollup-plugin-md",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a rollup plugin for markdown files",
   "main": "dist/rollup-plugin-md.js",
   "jsnext:main": "dist/rollup-plugin-md.mjs",
