@@ -4,6 +4,14 @@
   "description": "a rollup plugin for markdown files",
   "main": "dist/rollup-plugin-md.js",
   "jsnext:main": "dist/rollup-plugin-md.mjs",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/BobKerns/rollup-plugin-md.git"
+  },
+  "homepage": "https://github.com/BobKerns/rollup-plugin-md.#README",
+  "bugs": {
+    "url": "https://github.com/BobKerns/rollup-plugin-md/issues"
+  },
   "scripts": {
     "test": "mocha test/*.js",
     "pretest": "npm run build",
