@@ -1,16 +1,16 @@
 {
-  "name": "rollup-plugin-md",
-  "version": "1.0.2",
+  "name": "@rwk/rollup-plugin-md",
+  "version": "1.0.3",
   "description": "a rollup plugin for markdown files",
   "main": "dist/rollup-plugin-md.js",
   "jsnext:main": "dist/rollup-plugin-md.mjs",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/xiaofuzi/rollup-plugin-md.git"
+      "type": "git",
+      "url": "https://github.com/BobKerns/rollup-plugin-md.git"
   },
-  "homepage": "https://github.com/xiaofuzi/rollup-plugin-md.#README",
+  "homepage": "https://github.com/BobKerns/rollup-plugin-md.#README",
   "bugs": {
-    "url": "https://github.com/xiaofuzi/rollup-plugin-md/issues"
+    "url": "https://github.com/BobKerns/rollup-plugin-md/issues"
   },
   "scripts": {
     "test": "mocha test/*.js",
