@@ -8,11 +8,11 @@ require( 'source-map-support' ).install();
 process.chdir( __dirname );
 
 function executeBundle ( bundle ) {
-	var generated = bundle.generate();
-	var code = generated.code;
+    var generated = bundle.generate();
+    var code = generated.code;
 
-	var fn = new Function( 'assert', code );
-	fn( assert );
+    var fn = new Function( 'assert', code );
+    fn( assert );
 }
 
 describe( 'rollup-plugin-md', function () {

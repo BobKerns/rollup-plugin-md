@@ -5,16 +5,16 @@ const ext = /\.md$/;
 
 
 export default function md ( options = {} ) {
-	const filter = createFilter( options.include || [ '**/*.md'], options.exclude );
-	if (options.marked) {
-		marked.setOptions(options.marked);
-	}
-	return {
-		name: 'md',
+    const filter = createFilter( options.include || [ '**/*.md'], options.exclude );
+    if(options.marked){
+      marked.setOptions(options.marked)
+    }
+    return {
+        name: 'md',
 
-		transform ( md, id ) {
-			if ( !ext.test( id ) ) return null;
-			if ( !filter( id ) ) return null;
+        transform ( md, id ) {
+            if ( !ext.test( id ) ) return null;
+            if ( !filter( id ) ) return null;
 
             const data = options.marked === false ? md : marked( md );
             return {

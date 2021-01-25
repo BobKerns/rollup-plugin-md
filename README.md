@@ -1,10 +1,8 @@
 # rollup-plugin-md
 ## Install
 
-Temporary fork of rollup-plugin-md
-
 ```node
-npm install @rwk/rollup-plugin-md --save
+npm install rollup-plugin-md --save
 ```
 
 ## usage
@@ -16,7 +14,7 @@ console.log( `Template for render: ${md}` );
 
 ```js
 import { rollup } from 'rollup';
-import md from '@rwk/rollup-plugin-md';
+import md from 'rollup-plugin-md';
 
 rollup({
     entry: 'main.js',
