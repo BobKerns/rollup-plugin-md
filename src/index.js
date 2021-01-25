@@ -16,11 +16,11 @@ export default function md ( options = {} ) {
 			if ( !ext.test( id ) ) return null;
 			if ( !filter( id ) ) return null;
 
-			const data = marked( md );
-			return {
-				code: `export default ${JSON.stringify(data.toString())};`,
-				map: { mappings: '' }
-			};
-		}
-	};
+            const data = options.marked === false ? md : marked( md );
+            return {
+                code: `export default ${JSON.stringify(data.toString())};`,
+                map: { mappings: '' }
+            };
+        }
+    };
 }

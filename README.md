@@ -1,3 +1,4 @@
+# rollup-plugin-md
 ## Install
 
 Temporary fork of rollup-plugin-md
@@ -21,6 +22,7 @@ rollup({
     entry: 'main.js',
     plugins: [
         md({
+            // to disable marked set to false
             marked: {
                 //marked options
             }
