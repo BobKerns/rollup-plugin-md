@@ -19,15 +19,15 @@
   "author": "yangxiaofu",
   "license": "ISC",
   "dependencies": {
-    "marked": "^4.0.10",
-    "rollup": "^2.35.1",
+    "marked": "^15.0.12",
+    "rollup": "^4.41.1",
     "rollup-pluginutils": "^2.8.2"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^11.0.1",
-    "assert": "^2.0.0",
-    "eslint": "^7.16.0",
-    "mocha": "^10.1.0",
-    "source-map-support": "^0.5.19"
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "assert": "^2.1.0",
+    "eslint": "^9.27.0",
+    "mocha": "^11.5.0",
+    "source-map-support": "^0.5.21"
   }
 }
