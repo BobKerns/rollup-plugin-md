@@ -1,4 +1,4 @@
-var pkg = require('./package.json');
+import pkg from './package.json' assert { type: 'json' };
 var external = Object.keys( pkg.dependencies );
 
 export default {
