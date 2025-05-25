@@ -1,4 +1,4 @@
-import pkg from './package.json' assert { type: 'json' };
+import pkg from './package.json';
 var external = Object.keys( pkg.dependencies );
 
 export default {
